@@ -1,8 +1,31 @@
-header{
-	height: 7vh;
-	padding: 15px 0;
-	background: #222;
-	a {
-		color: #fff;
-	}
+header {
+    padding: 15px 0;
+    background: #222;
+
+    .container {
+        display: flex;
+    }
+
+    .header-navigation {
+        display: flex;
+        align-items: center;
+		gap: 24px;
+        font-size: 18px;
+        font-weight: 500;
+		margin: 0 100px;
+
+    }
+
+    a {
+        color: #fff;
+		text-decoration: none;
+		&:hover {
+			color: $hover-link;
+		}
+    }
+
+    .logo {
+        display: inline-block;
+        max-width: 170px;
+    }
 }

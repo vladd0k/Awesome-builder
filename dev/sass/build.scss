@@ -1,3 +1,14 @@
-h1 {
-    color: blue;
+.build-item{
+    fill: #ad25e3;
+    stroke: #9f148a;
+    stroke-width: 5px;
+    fill-opacity: 0;
+    stroke-opacity: 0;
+    transition: .4s;
+
+    &:hover{
+        fill-opacity: 0.3;
+        stroke-opacity: 1;
+        cursor: pointer;
+    }
 }
