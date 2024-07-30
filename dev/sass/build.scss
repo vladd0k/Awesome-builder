@@ -12,3 +12,34 @@
         cursor: pointer;
     }
 }
+
+.information {
+    color: #fff;
+    background: #121212;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    h2 {
+        font-size: 24px;
+    }
+
+    &-list {
+        list-style: none;
+        display: flex;
+        gap: 18px;
+        text-align: center;
+    }
+
+}
+
+.list-item {
+    display: flex;
+    min-width: 235px;
+    flex-direction: column;
+
+    b {
+        font-size: 18px;
+    }
+}
