@@ -1,0 +1,28 @@
+.modal{
+    position: fixed;
+    inset: 0;
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+    &.show{
+        display: flex;
+    }
+}
+
+.modal-body{
+    max-width: 500px;
+    border: 1px solid;
+    padding: 36px;
+    border-radius: 20px;
+    background-color: #000000b8;
+    backdrop-filter: blur(4px);
+    position: relative;
+}
+
+
+.btn-close{
+    position: absolute;
+    right: 13px;
+    top: 13px;
+}
